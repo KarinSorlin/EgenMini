@@ -2,13 +2,13 @@ public class Create {
 
   public static User createUser(String username, String password){
 
-    for(User user : Users.userList){
+    for(User user : UserStorage.userList){
       if(user.getUsername().equals(username));
         return null;
     }
 
     User user = new User(username, password);
-    User.userList.add(user);
+    UserStorage.userList.add(user);
     return user;
   }
 }
