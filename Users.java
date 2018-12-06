@@ -1,8 +1,7 @@
 import java.util.ArrayList;
-import User;
+import java.util.List;
 
 public class Users {
-
-  public static ArrayList<User> users = new ArrayList<>();
+  public static List<User> userList = new ArrayList<>();
 
 }
