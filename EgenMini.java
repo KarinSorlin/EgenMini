@@ -32,7 +32,7 @@ public class EgenMini {
             continue;
           }
         case "2":
-          user = Create tryCreate(username, password);
+          user = Create.createUser(username, password);
 
           if(user == null){
             System.out.println("Failed to create user!");
